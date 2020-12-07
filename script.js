@@ -141,7 +141,7 @@
     }
     growUp () {
         if (this.days < 100) {
-            this.days = this.days + 20;
+            this.days = this.days + 4;
             ageProgress.style.width = `${this.days}%`;
         } else {
           this.days = 0;
