@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/fluent/48/000000/sloth.png">
+  <script src="./script.js" defer></script>
+  <title>Tamagotchi</title>
+</head>
+<body>
+  <div class="preloader visibility" data-prelaoder></div>
+  <div class="game-container hidden" data-game-container>
+    <div class="hero-container">
+      <div class="hero">
+        <img src="" alt="" data-hero>
+      </div>
+      <h2 class="hidden h2" data-notification></h2>
+      <div class="progress-bar" data-progress-bar>
+        <div class="progress" data-age></div>
+        <span class="properties" ><span data-age-text>0&nbsp</span>- years old</span>
+      </div>
+      <div class="progress-bar" data-progress-bar>
+        <div class="progress" data-health></div>
+        <span class="properties">health</span>
+        <button class="button action" data-cure>Сure</button>
+      </div>
+      <div class="progress-bar" data-progress-bar>
+        <div class="progress" data-drowsiness></div>
+        <span class="properties">drowsiness</span>
+        <button class="button action" data-sleep>Sleep</button>
+      </div>
+      <div class="progress-bar" data-progress-bar>
+        <div class="progress" data-thirst></div>
+        <span class="properties">thirst</span>
+        <button class="button action" data-drinking>Drinking</button>
+      </div>
+      <div class="progress-bar" data-progress-bar>
+        <div class="progress" data-cleanliness></div>
+        <span class="properties">cleanliness</span>
+        <button class="button action" data-clean>Clean</button>
+      </div>
+      <div class="progress-bar" data-progress-bar>
+        <div class="progress" data-hunger></div>
+        <span class="properties">hunger</span>
+        <button class="button action" data-feed>Feed</button>
+      </div>
+      <div class="progress-bar" data-progress-bar>
+        <div class="progress" data-friendship></div>
+        <span class="properties">friendship</span>
+      </div>
+    </div>
+  </div>
+  <div class="choise-container hidden" data-choise-container>
+    <div class="choise-hero" data-choise-hero>
+      <h1 class="h3">Choose your pet</h3>
+      <img src="./images/cat-0.png" alt="cat" class="hero-img" data-hero-img>
+      <button class="next button" data-next>Next</button>
+      <button class="previous button" data-previous>Previous</button>
+      <button class="play-button button" data-play=""><h4>Lets play!</h4></button>
+    </div>
+  </div>
+</body>
+</html>
